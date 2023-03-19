@@ -1,0 +1,24 @@
+{
+  "name": "move-maps",
+  "version": "1.0.0",
+  "main": "src/app.ts",
+  "author": "luc",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/app.ts",
+    "build": "tsc",
+    "dev": "nodemon src/app.ts"
+  },
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "node-fetch": "^3.3.1",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.0.2"
+  }
+}
